@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Верстка на Bootstrap 4</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--Шапка сайта-->
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+      <div class="container-fluid">
+        <a href="#" class="navbar-brad"><img src="img/LOGO.jpg" alt="logo"/></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a href="#" class="nav-link ">Main</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">About us</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Contacts</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Servisec</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Team</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--Слайдер изображений-->
+    <div class="carousel slide" data-ride="carousel" id="sliders">
+      <ul class="carousel-indicators">
+        <li data-target="#sliders" data-slide-to="0" class="active"></li>
+        <li data-target="#sliders" data-slide-to="1"></li>
+        <li data-target="#sliders" data-slide-to="2"></li>
+      </ul>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/slider1.jpg" alt="" />
+          <div class="carousel-caption">
+            <h1 class="display-2">itProger</h1>
+            <h3>Learning programmer</h3>
+            <button type="button" class="btn btn-outline-light btn-lg">
+              Look at
+            </button>
+            <button type="button" class="btn btn-warning btn-lg">
+              Demo site
+            </button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/slider2.jpg" alt="" />
+        </div>
+        <div class="carousel-item">
+          <img src="img/slider3.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <!--Основной блок сайта-->
+    <div class="container-fluid">
+      <div class="row jumbotron">
+        <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+          <p class="lead">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+            mollitia cum suscipit doloribus, repellat, necessitatibus ipsam at
+            sunt veniam quod pariatur adipisci minima ipsa itaque excepturi,
+            architecto voluptatibus atque impedit. Lorem ipsum dolor sit amet
+            consectetur, adipisicing elit. Sit laboriosam perferendis vitae sed
+            quas quibusdam sequi, excepturi deleniti eum adipisci quod,
+            voluptate sint modi soluta unde corrupti blanditiis ex molestiae.
+          </p>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+          <a href="#"
+            ><button class="btn btn-success btn-lg" type="button">
+              Next reading
+            </button></a
+          >
+        </div>
+      </div>
+    </div>
+    <!--Блок с характеристиками-->
+    <div class="container-fluid">
+      <div class="row text-center alert">
+        <div class="col-12">
+          <h1 class="display-4">Site Creation</h1>
+        </div>
+        <hr />
+        <div class="col-12">
+          <p class="lead">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum,
+            nam deserunt! Unde, voluptates iusto veniam hic ratione a est
+            sapiente quod eligendi omnis voluptatibus ullam ipsa sit dignissimos
+            dicta enim doloribus dolor ipsum numquam alias beatae vel non
+            laudantium? Suscipit, fugit itaque nemo adipisci corporis expedita
+            neque beatae consequatur perspiciatis quidem facilis, repellat
+            maiores vitae iusto nobis? Numquam, soluta nihil.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--Блок с описанием языков-->
+    <div class="container-fluid padding">
+      <div class="row text-center padding">
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <i class="fas fa-code"></i>
+          <h3>HTML5</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <i class="fas fa-bold"></i>
+          <h3>Bootstrap</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <i class="fab fa-css3"></i>
+          <h3>CSS3</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+        </div>
+      </div>
+      <hr class="my-4" />
+    </div>
+    <!-- Простая секция с изображениями -->
+    <div class="container-fluid padding">
+      <div class="row padding">
+        <div class="offset-lg-2 col-lg-4">
+          <h2>What the programmer</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit
+            voluptate optio quod nesciunt asperiores, quibusdam minus
+            exercitationem odio! Repellat illo architecto explicabo dolorem
+            optio corporis quas magnam eum deserunt voluptatem.
+            <br /><br />
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident
+            vero quas repudiandae omnis rem nihil voluptatum fugit velit a?
+            Recusandae architecto minus labore dolores. Qui deleniti magnam
+            consequuntur cumque reiciendis!
+            <br /><br />
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
+            nulla non sint tenetur, iusto cupiditate amet et delectus ad
+            distinctio odit corrupti maxime, sunt voluptatibus eaque officia
+            excepturi adipisci nemo.
+          </p>
+            <br>
+            <a href="#" class="btn btn-danger">Reading Next</a>
+        </div>
+        <div class="col-lg-6">
+          <br>
+          <img src="img/ittech.jpg" class="img-fluid">
+        </div>
+      </div>
+    </div>
+    <!-- Блок с фиксировнным изображением -->
+    <figure>
+      <div class="fixed-wrap">
+        <div id="fixed">
+
+        </div>
+      </div>
+    </figure>
+    <!--Закрытая секция-->
+    <div class="text-center">
+    <button type="button" id="gifsBtn" class="btn btn-success" data-toggle="collapse"
+    data-target="#gifs">Open block</button>
+    <div id="gifs" class="collapse">
+      <div class="container-fluid padding">
+         <div class="row text-center">
+           <div class="col-sm-6 col-md-3">
+             <img src="img/gif1.gif" class="gif">
+           </div>
+           <div class="col-sm-6 col-md-3">
+            <img src="img/gif2.gif" class="gif">
+          </div>
+          <div class="col-sm-6 col-md-3">
+            <img src="img/gif3.gif" class="gif">
+          </div>
+          <div class="col-sm-6 col-md-3">
+            <img src="img/gif4.gif" class="gif">
+          </div>
+         </div>
+      </div>
+    </div>
+  </div>
+  <!-- Карточки с языками программирования -->
+    <div class="container-fluid padding">
+      <div class="row alert text-center">
+        <div class="col-12">
+          <h1 class="display-4">Audi</h1>
+        </div>
+        <hr>
+      </div>
+    </div>
+    <div class="container padding">
+      <div class="row padding">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="img/audi.jpg" class="card-img-top">
+            <div class="card-body">
+              <h4 class="card-title">Audi TOP for You</h4>
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda recusandae aut placeat.</p>
+              <a href="#" class="btn btn-warning">Looking</a>
+            </div>
+          </div>
+          </div>
+          <div class="col-md-4">
+          <div class="card">
+            <img src="img/audi2.jpg" class="card-img-top">
+            <div class="card-body">
+              <h4 class="card-title">Audi TOP for You</h4>
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda recusandae aut placeat.</p>
+              <a href="#" class="btn btn-warning">Looking</a>
+            </div>
+          </div>
+          </div>
+          <div class="col-md-4">
+          <div class="card">
+            <img src="img/audi3.jpg" class="card-img-top">
+            <div class="card-body">
+              <h4 class="card-title">Audi TOP for You</h4>
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda recusandae aut placeat.</p>
+              <a href="#" class="btn btn-warning">Looking</a>
+            </div>
+          </div>
+          </div>
+        </div>
+    </div>
+    <!--Футтер-->
+    <footer class="container-fluid">
+      <div class="container">
+        <div class="row padding text-center">
+          <div class="col-12">
+            <h2>Our Contacs</h2>
+          </div>
+          <div class="col-12 social padding">
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-google-plus-g"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
